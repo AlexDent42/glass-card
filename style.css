@@ -30,6 +30,8 @@ body {
     align-items: center;
 }
 
+
+
 .card span {
     position: absolute;
     top:0;
@@ -70,6 +72,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    transition: transform 1s;
+}
+.card .glass:hover {
+    transform: rotate(5deg);
+    transition: 1s;
 }
 
 .card .glass::before {
